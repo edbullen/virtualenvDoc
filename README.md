@@ -1,5 +1,5 @@
 # Virtual Environment and Multiple Python versions on Mac
-Quick notes on setting up virtual env and multiple Python versions on Mac
+Quick personal notes on setting up virtual env and multiple Python versions on Mac
 
 
 ## Virtual Environments with virtualenv wrapper
@@ -60,11 +60,11 @@ current version
 pyenv version
 ```
 
-Set the version of python to work with:
+Set the version of python to work with *in a particular folder*:
 ```
 pyenv local 3.7.9
 ```
-
+(sets the python version when working in the folder where this version was initialised)
 
 ## Specify the version of Python to use with a virtual environment
 
