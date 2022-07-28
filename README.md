@@ -103,3 +103,12 @@ else
 fi
                 
 ```
+
+
+## Getting Pycharm Projects to pick up the virtual env
+
+This was painful, but it can be done.
+
+Usefull Stack Overflow forum: https://stackoverflow.com/questions/34520291/pycharm-cannot-find-the-packages-in-virtualenv
+
+![Alt text](pycharm_screenshot.png?raw=true "Title")
