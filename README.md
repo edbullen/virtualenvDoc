@@ -129,3 +129,24 @@ Useful Stack Overflow forum: https://stackoverflow.com/questions/34520291/pychar
 In this example, the virtualenv being selected is called `mlflow`.   
 
 ![Alt text](Pycharm_screenshot_Step3_b.png?raw=true "Step3_b")
+
+## Install Java OpenJDK 8
+
+```
+brew install --cask adoptopenjdk/openjdk/adoptopenjdk8
+```
+
+Check:
+```
+java -version
+```
+```
+openjdk version "1.8.0_292"
+OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_292-b10)
+OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.292-b10, mixed mode)
+```
+Default Location
+```
+which java
+/usr/bin/java
+```
