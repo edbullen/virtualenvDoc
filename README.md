@@ -122,8 +122,10 @@ Useful Stack Overflow forum: https://stackoverflow.com/questions/34520291/pychar
 ![Alt text](Pycharm_screenshot_Step2.png?raw=true "Step2")
 
 **Step 3** Select the Python executable in the correct Virtualenv path
-![Alt text](Pycharm_screenshot_Step3.png?raw=true "Step3")
+![Alt text](pycharm_screenshot_Step3.png?raw=true "Step3")
 
-**NOTE** Sometime the V-env doesn't show up in the list - you have to navigate using the elipsis (`...`) by the Interpreter dialog box and find the path to the linked Python interpreter for the virtual env required.
+**NOTE** Sometime the V-env doesn't show up in the list - you have to navigate using the elipsis (`...`) by the Interpreter dialog box and find the path to the linked Python interpreter for the virtual env required.   
+
+In this example, the virtualenv being selected is called `mlflow`.   
 
 ![Alt text](Pycharm_screenshot_Step3_b.png?raw=true "Step3_b")
