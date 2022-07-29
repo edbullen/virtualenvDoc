@@ -45,10 +45,12 @@ rmvirtualenv my-project
 brew install pyenv
 ```
 
-install a versin of Python
+install a version of Python
 ```
 pyenv install 3.7.9
 ```
+
+NOTE: various compatibility issues on Mac M1 chips with Python earlier than 3.8: https://bugs.python.org/msg382939
 
 list versions 
 ```
@@ -109,6 +111,6 @@ fi
 
 This was painful, but it can be done.
 
-Usefull Stack Overflow forum: https://stackoverflow.com/questions/34520291/pycharm-cannot-find-the-packages-in-virtualenv
+Useful Stack Overflow forum: https://stackoverflow.com/questions/34520291/pycharm-cannot-find-the-packages-in-virtualenv
 
 ![Alt text](pycharm_screenshot.png?raw=true "Title")
