@@ -113,4 +113,17 @@ This was painful, but it can be done.
 
 Useful Stack Overflow forum: https://stackoverflow.com/questions/34520291/pycharm-cannot-find-the-packages-in-virtualenv
 
-![Alt text](pycharm_screenshot.png?raw=true "Title")
+**Step 1** Select Setup for the Python Interpreter for this Project
+
+![Alt text](pycharm_screenshot_Step1.png?raw=true "Step1")
+
+**Step 2** Add an new Interpreter for this Project
+
+![Alt text](pycharm_screenshot_Step2.png?raw=true "Step2")
+
+**Step 3** Select the Python executable in the correct Virtualenv path
+![Alt text](pycharm_screenshot_Step3.png?raw=true "Step3")
+
+**NOTE** Sometime the V-env doesn't show up in the list - you have to navigate using the elipsis (`...`) by the Interpreter dialog box and find the path to the linked Python interpreter for the virtual env required.
+
+![Alt text](pycharm_screenshot_Step3_b.png?raw=true "Step3_b")
