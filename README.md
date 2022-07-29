@@ -27,7 +27,7 @@ deactivate my-project
 
 list
 ```
-lsvirtualenv
+lsvirtualenv -b
 ```
 
 
@@ -84,25 +84,25 @@ Activate it with `workon`
 ## Example `.zprofile`
 
 ```
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Configuration for virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_PYTHON=/opt/homebrew/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/opt/homebrew/bin/virtualenv
 source /opt/homebrew/bin/virtualenvwrapper.sh
- 
+
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
- 
+
+# Fix path issue in Pycharm for virtualenvwrapper.sh 
+export PATH=$PATH:/opt/homebrew/bin
 # use the same directory for virtualenvs as virtualenvwrapper
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
+
 # makes pip detect an active virtualenv and install to it
 export PIP_RESPECT_VIRTUALENV=true
-if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
-source /usr/local/bin/virtualenvwrapper.sh
-else
-     echo "WARNING: Can't find virtualenvwrapper.sh"
-fi
                 
 ```
 
