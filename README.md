@@ -115,7 +115,7 @@ Useful Stack Overflow forum: https://stackoverflow.com/questions/34520291/pychar
 
 **Step 1** Select Setup for the Python Interpreter for this Project
 
-![Alt text](pycharm_screenshot_Step1.png?raw=true "Step1")
+![Alt text](Pycharm_screenshot_Step1.png?raw=true "Step1")
 
 **Step 2** Add an new Interpreter for this Project
 
