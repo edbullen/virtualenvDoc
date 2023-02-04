@@ -150,3 +150,9 @@ Default Location
 which java
 /usr/bin/java
 ```
+
+## Setting up GitHub Token Cache
+
+1. Get a PAT from GitHub (Profile -> Settings -> Developer Settings (bottom l-h side of screen) -> Personal access tokens
+2. In the env to set up authentication, set git to cache credentials: `git config --global --replace-all credential.helper cache`
+3. `git pull` - supply the PAT in place of the password.
